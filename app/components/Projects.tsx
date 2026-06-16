@@ -72,7 +72,7 @@ export default function Projects() {
               className="bg-white/5 rounded-xl p-6 border border-white/10 hover:border-blue-500/50 transition-colors group"
               initial={{ opacity: 0, y: 40 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.6, delay: 0.2 + i * 0.15, ease: [0.22, 1, 0.36, 1] }}
+              transition={{ duration: 0.6, delay: 0.2 + i * 0.15, ease: [0.22, 1, 0.36, 1] as const }}
               whileHover={{ y: -2, transition: { duration: 0.2 } }}
             >
               <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2 gap-1">

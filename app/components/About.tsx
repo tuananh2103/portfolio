@@ -39,7 +39,7 @@ export default function About() {
           <motion.div
             initial={{ opacity: 0, x: -40 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
-            transition={{ duration: 0.7, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
+            transition={{ duration: 0.7, delay: 0.15, ease: [0.22, 1, 0.36, 1] as const }}
           >
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 leading-tight">
               I started as a developer. AI made me think bigger.
@@ -83,7 +83,7 @@ export default function About() {
           <motion.div
             initial={{ opacity: 0, x: 40 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
-            transition={{ duration: 0.7, delay: 0.25, ease: [0.22, 1, 0.36, 1] }}
+            transition={{ duration: 0.7, delay: 0.25, ease: [0.22, 1, 0.36, 1] as const }}
           >
             {/* Avatar */}
             <div className="relative w-40 h-40 mx-auto mb-8">

@@ -64,7 +64,7 @@ export default function Experience() {
           <motion.div
             initial={{ opacity: 0, x: -40 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
-            transition={{ duration: 0.7, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
+            transition={{ duration: 0.7, delay: 0.2, ease: [0.22, 1, 0.36, 1] as const }}
           >
             <h3 className="text-sm font-mono text-zinc-500 uppercase tracking-widest mb-6">Professional</h3>
             {experiences.map(({ role, company, period, description, tags }) => (
@@ -94,7 +94,7 @@ export default function Experience() {
           <motion.div
             initial={{ opacity: 0, x: 40 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
-            transition={{ duration: 0.7, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
+            transition={{ duration: 0.7, delay: 0.3, ease: [0.22, 1, 0.36, 1] as const }}
           >
             <h3 className="text-sm font-mono text-zinc-500 uppercase tracking-widest mb-6">Education</h3>
             <div className="space-y-5">

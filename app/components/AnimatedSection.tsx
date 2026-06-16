@@ -25,7 +25,7 @@ export default function AnimatedSection({ children, className, delay = 0, direct
       className={className}
       initial={initial}
       animate={inView ? { opacity: 1, y: 0, x: 0 } : initial}
-      transition={{ duration: 0.6, delay, ease: [0.22, 1, 0.36, 1] }}
+      transition={{ duration: 0.6, delay, ease: [0.22, 1, 0.36, 1] as const }}
     >
       {children}
     </motion.div>
