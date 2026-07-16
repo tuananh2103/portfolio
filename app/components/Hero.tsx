@@ -34,7 +34,7 @@ export default function Hero() {
       </motion.div>
 
       <motion.p className="text-zinc-500 mb-12 text-sm" {...fadeUp(0.5)}>
-        Master Informatique Fullstack / DevOps · Université de Rennes I
+        Master Informatique — Fullstack / DevOps · Ynov Campus · Paris
       </motion.p>
 
       <motion.div className="flex flex-col sm:flex-row gap-4" {...fadeUp(0.65)}>

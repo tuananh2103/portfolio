@@ -4,10 +4,10 @@ import { useRef } from "react";
 import Image from "next/image";
 
 const info = [
-  { label: "Location", value: "Rennes, France" },
-  { label: "Degree", value: "Master Informatique" },
-  { label: "University", value: "Université de Rennes I" },
-  { label: "Focus", value: "Cloud & Networks" },
+  { label: "Location", value: "Paris, France" },
+  { label: "Degree", value: "Expert Développeur Fullstack" },
+  { label: "University", value: "Ynov Campus" },
+  { label: "Period", value: "2026 – 2028" },
   { label: "Status", value: "Seeking alternance 2026" },
 ];
 
@@ -50,11 +50,10 @@ export default function About() {
               ask a harder question: where do I actually want to be in five years?
             </p>
             <p className="text-zinc-400 leading-relaxed mb-8">
-              The answer was infrastructure. The layer that runs everything — AI included.
-              That&apos;s what drew me to DevOps: not as a fallback, but as a deliberate bet
-              on skills that compound. I&apos;m wrapping up my B.Sc. at Rennes I, heading into
-              a Cloud &amp; Networks Master&apos;s, and looking for an alternance where I can
-              work on real systems.
+              The answer was to go deeper on the full stack — from infrastructure to product.
+              I&apos;ve just been accepted into the Expert Développeur Fullstack Master&apos;s
+              at Ynov (2026–2028), and I&apos;m looking for an alternance where I can work on
+              real systems end-to-end.
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
               {softSkills.map((s, i) => (

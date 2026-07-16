@@ -18,10 +18,10 @@ const experiences = [
 
 const education = [
   {
-    degree: "Master's in Computer Science — Cloud & Networks",
-    school: "Université de Rennes I",
+    degree: "Master Informatique — Fullstack / DevOps",
+    school: "Ynov Campus · Paris",
     period: "2026 – 2028",
-    detail: "Cloud computing, distributed systems, virtualisation, network security, monitoring and automation. Work-study programme (alternance).",
+    detail: "Fullstack architecture, API design, DevOps practices, CI/CD, containerisation, cloud deployment. Work-study programme (alternance). Paris, France.",
   },
   {
     degree: "B.Sc. in Computer Science",
