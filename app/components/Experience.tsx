@@ -19,13 +19,13 @@ const experiences = [
 const education = [
   {
     degree: "Master Informatique — Fullstack / DevOps",
-    school: "Ynov Campus · Paris",
+    school: "Université de Rennes · Rennes",
     period: "2026 – 2028",
-    detail: "Fullstack architecture, API design, DevOps practices, CI/CD, containerisation, cloud deployment. Work-study programme (alternance). Paris, France.",
+    detail: "Fullstack architecture, API design, DevOps practices, CI/CD, containerisation, cloud deployment. Rennes, France.",
   },
   {
     degree: "B.Sc. in Computer Science",
-    school: "Université de Rennes I",
+    school: "Université de Rennes ",
     period: "2022 – 2026",
     detail: "OOP (Java/C), databases, systems, cloud & networks. ANSSI Cybersecurity Certificate (2025).",
   },

@@ -4,9 +4,9 @@ import { useRef } from "react";
 import Image from "next/image";
 
 const info = [
-  { label: "Location", value: "Paris, France" },
-  { label: "Degree", value: "Expert Développeur Fullstack" },
-  { label: "University", value: "Ynov Campus" },
+  { label: "Location", value: "Rennes, France" },
+  { label: "Degree", value: "Master Cloud et Réseaux" },
+  { label: "University", value: "Université de Rennes" },
   { label: "Period", value: "2026 – 2028" },
   { label: "Status", value: "Seeking alternance 2026" },
 ];
@@ -51,8 +51,8 @@ export default function About() {
             </p>
             <p className="text-zinc-400 leading-relaxed mb-8">
               The answer was to go deeper on the full stack — from infrastructure to product.
-              I&apos;ve just been accepted into the Expert Développeur Fullstack Master&apos;s
-              at Ynov (2026–2028), and I&apos;m looking for an alternance where I can work on
+              I&apos;ve just been accepted into the Master Cloud et Reseaux &apos;s
+              at Université de Rennes (2026–2028), and I&apos;m looking for an alternance where I can work on
               real systems end-to-end.
             </p>
             <div className="flex flex-wrap gap-2 mb-8">
